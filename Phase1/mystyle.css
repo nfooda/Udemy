@@ -493,14 +493,14 @@ input {
 }
 
 @media screen and (max-width: 800px) {
-  .search,
   .categories,
+  .search,
   .udemybusiness,
   .teachonudemy,
+  .cart,
   .login,
   .signup,
   .lang,
-  .cart,
   .courses-nav ul li:nth-child(4) {
     display: none;
   }
