@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="mystyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <title>Udemy</title>
+  </head>
+  <body>
+    <!-- first section -->
+    <header>
+      <nav class="nav-bar header shadowed">
+        <a href="/" class="logo main">
+          <img
+            src="images/logo-udemy.svg"
+            alt="Udemy logo"
+            width="91"
+            height="34"
+          />
+        </a>
+
+        <div class="nav-btns menu">
+          <a href="#" target="_blank" class="nav-btn">
+            <img src="images/menu-icon.png" class="menu-icon" alt="menu"
+          /></a>
+        </div>
+
+        <div class="nav-btns categories">
+          <a href="#" target="_blank" class="nav-btn bttn text-decoration-none">
+            <span class="txt-sm">Categories</span>
+          </a>
+        </div>
+        <div class="search">
+          <form action="" class="search-form">
+            <div class="search-text">
+              <div class="nav-btn search-icon">
+                <i class="fa fa-search icon"></i>
+              </div>
+
+              <label for="search-form-text"></label>
+              <input
+                type="text"
+                name="search-form-text"
+                placeholder="Search for anything"
+                autocomplete="off"
+                value=""
+                id="search-form-text"
+                class="txt-sm search-textbox"
+              />
+            </div>
+            <input
+              type="submit"
+              value="Search"
+              class="submit-btn text-heading-sm nav-btn"
+            />
+          </form>
+        </div>
+        <div class="nav-btns udemybusiness">
+          <a href="#" target="_blank" class="nav-btn bttn text-decoration-none">
+            <span class="txt-sm">Udemy Business</span>
+          </a>
+        </div>
+        <div class="nav-btns teachonudemy">
+          <a href="#" target="_blank" class="nav-btn bttn text-decoration-none">
+            <span class="txt-sm">Teach on Udemy</span>
+          </a>
+        </div>
+
+        <div class="nav-btns cart">
+          <a href="#" target="_blank" class="nav-btn text-decoration-none">
+            <i class="fa fa-shopping-cart icon"></i>
+          </a>
+        </div>
+
+        <div class="nav-btns login">
+          <a href="#" target="_blank" class="nav-btn bttn text-decoration-none">
+            <span class="text-heading-sm">Log in</span>
+          </a>
+        </div>
+
+        <div class="nav-btns signup">
+          <a href="#" target="_blank" class="nav-btn bttn text-decoration-none">
+            <span class="text-heading-sm-white">Sign up</span>
+          </a>
+        </div>
+
+        <div class="nav-btns lang">
+          <a href="#" target="_blank" class="nav-btn text-decoration-none">
+            <i class="fa fa-globe icon"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- second section -->
+    <article class="billboard">
+      <div class="billboard-image">
+        <img
+          src="images/alarm-icon-cartoon-timer-clock-free-photo-png.png"
+          alt="billboard"
+        />
+      </div>
+      <div class="billboard-title">
+        <h1>New to Udemy? Lucky you.</h1>
+        <p>Courses start at E€169.99. Get your new-student offer now.</p>
+      </div>
+    </article>
+
+    <!-- third section  -->
+    <main class="courses">
+      <header class="courses-header container">
+        <h1>A broad selection of courses</h1>
+        <p class="text-lg">
+          Choose from 185,000 online video courses with new additions published
+          every month
+        </p>
+      </header>
+      <section class="container">
+        <nav class="courses-nav">
+            <ul class="nav mb-3" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active nav-btn text-heading-sm"
+                  id="python"
+                  data-bs-target="#python"
+                  type="button"
+                  role="tab"
+                  aria-controls="python"
+                  aria-current="true"
+                >
+                  Python
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="excel"
+                  data-bs-target="#excel"
+                  type="button"
+                  role="tab"
+                  aria-controls="excel"
+                  aria-current="false"
+                >
+                  Excel
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="web"
+                  data-bs-target="#webdevelopment"
+                  type="button"
+                  role="tab"
+                  aria-controls="webdevelopment"
+                  aria-current="false"
+                >
+                  Web Development
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="javascript"
+                  data-bs-target="#javascript"
+                  type="button"
+                  role="tab"
+                  aria-controls="javascript"
+                  aria-current="false"
+                >
+                  JavaScript
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="datascience"
+                  data-bs-target="#datascience"
+                  type="button"
+                  role="tab"
+                  aria-controls="datascience"
+                  aria-current="false"
+                >
+                  Data Science
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="aws"
+                  data-bs-target="#awscertification"
+                  type="button"
+                  role="tab"
+                  aria-controls="awscertification"
+                  aria-current="false"
+                >
+                  AWS Certification
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-btn text-heading-sm"
+                  id="drawing"
+                  data-bs-target="#drawing"
+                  type="button"
+                  role="tab"
+                  aria-controls="drawing"
+                  aria-current="false"
+                >
+                  Drawing
+                </button>
+              </li>
+            </ul>
+        </nav>
+
+        <section class="courses-explore">
+          <header class="courses-explore-header">
+            <h2 class="courses-explore-header-title">
+            </h2>
+            <p class="courses-explore-header-des">
+              
+            </p>
+            <button class="text-heading-sm explore-btn nav-btn bttn login">Explore </button>
+          </header>
+
+          <div class="courses-list">
+            <template id="courses-list">
+              <div class="course">
+                <img
+                  src=""
+                  alt=""
+                  class="course-img"
+                />
+                <h3 class="text-heading-sm course-title"></h3>
+                </h3>
+                <p class="instructor text-sm"></p>
+                <div class="rate">
+                  <span class="rate-no text-heading-sm"></span>
+                 
+                </div>
+                <h3 class="text-heading-sm price"></h3>
+              </div>
+            </template>
+
+          </div>
+        </section>
+      </section>
+
+        
+    </main>
+
+
+    <section class="container ">
+      <h2 class="fw-bolder">Top Categories</h2>
+      <div class="row ">
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-design-2x-v2.jpg">
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5 "> Design </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg" >
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5"> Development </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-2x-v2.jpg" >
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5"> Marketing </span></div>
+          </a>
+          </div>
+           <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-2x-v2.jpg">
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5"> It and Software </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid " alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-2x-v2.jpg">
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder "><span class="fs-5"> Personal Development </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-business-2x-v2.jpg">
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5"> Business </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-2x-v2.jpg">
+              </div>
+              <div class="text-start mb-3 mt-2 fw-bolder"><span class="fs-5"> Photography </span></div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12  mt-3">
+          <a href="">
+              <div class="img">
+                  <img class="img-fluid" alt="art" src="https://s.udemycdn.com/home/top-categories/lohp-category-music-2x-v2.jpg">
+              </div>
+              <div class="text-start  mb-3 mt-2 fw-bolder "><span class="fs-5"> Music </span></div>
+          </a>
+          </div>        
+      </div>
+  </section>
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
